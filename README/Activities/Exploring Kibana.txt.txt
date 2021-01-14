@@ -1,0 +1,50 @@
+In the last 7 days, how many unique visitors were located in India? 256
+
+In the last 24 hours, of the visitors from China, how many were using Mac OSX? 22.9
+
+In the last 2 days, what percentage of visitors received 404 errors? 56 
+How about 503 errors? 44
+
+In the last 7 days, what country produced the majority of the traffic on the website? China
+
+Of the traffic that's coming from that country, what time of day had the highest amount of activity? 13
+
+List all the types of downloaded files that have been identified for the last 7 
+days, along with a short description of each file type (use Google if you aren't
+ sure about a particular file type). Gz css zip deb rpm
+
+Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that 
+shows Unique Visitors Vs. Average Bytes.
+
+Locate the time frame in the last 7 days with the most amount of bytes 
+(activity). 2021-01-03 15,721 bytes
+In your own words, is there anything that seems potentially strange about this 
+activity?
+Filter the data by this event.
+
+What is the timestamp for this event? 2021-01-04T02:57:28.552Z
+What kind of file was downloaded? rpm
+From what country did this activity originate? India
+What HTTP response codes were encountered by this visitor? 200
+Switch to the Kibana Discover page to see more details about this activity.
+
+What is the source IP address of this activity? 35.143.166.159
+What are the geo-coordinates of this activity? 
+geo.coordinates.lat
+43.34121
+geo.coordinates.lon
+-73.6103075
+
+What OS was the source machine running? Win 10
+What is the full URL that was accessed? https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.3.2-i686.rpm
+From what website did the visitor's traffic originate? http://facebook.com/success/jay-c-buckey
+Finish your investigation with a short overview of your insights.
+
+What do you think the user was doing?  The installation of RPM files is
+ suspicious because it allows the user to attempt to access the root user and 
+install programs into your system.
+Was the file they downloaded malicious? If not, what is the file used for? The 
+file itself is not inherently malicious however can easily be used for malicious
+ intent. RPM files store the servies provided for a network.
+Is there anything that seems suspicious about this activity? There wouldn’t be 
+a site user reason to inspect these packets.
